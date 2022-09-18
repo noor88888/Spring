@@ -16,7 +16,7 @@ import com.springboot.springboot.model.Employee;
 import com.springboot.springboot.service.EmployeeService;
 
 @RestController
-@RequestMapping("/employee")
+@RequestMapping("/employees")
 public class HomeController 
 {
 	@Autowired

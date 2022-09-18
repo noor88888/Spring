@@ -1,6 +1,5 @@
 package com.springboot.springboot.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 //@JsonIgnoreProperties({"department"}) //if we dont want the property to be displayed we can use this annotation
 public class Employee

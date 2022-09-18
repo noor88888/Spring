@@ -27,7 +27,7 @@ public class EmployeeImpl implements EmployeeService
 		return employees.stream().filter(
 				employee ->employee.getName().equalsIgnoreCase(name))
 				.findFirst()
-				.orElseThrow(()->new EmployeeNotFoundException("Employee "+ name + " not found try seraching with other names"));
+				.orElseThrow(()->new EmployeeNotFoundException("Employee "+ name + " not found, try seraching with other names"));
 	}
 	@Override
 	public String deleteEmployeeByName(String name)
